@@ -1,0 +1,2 @@
+<h1 style="text-align: center;">Attempt {current_attempt} out of {max_attempts}</h1>
+<h2 style="text-align: center;">Trial {current_trial} out of {max_trials}</h2>
