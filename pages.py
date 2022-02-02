@@ -39,7 +39,7 @@ def save(service):
 
 def start_page(start_btn_callback):
     
-    with open('start_page_text.txt', 'r') as file:
+    with open('start_page_text.html', 'r') as file:
         body = file.read().replace('\n', '')
 
     st.markdown(body, unsafe_allow_html = True)
@@ -53,7 +53,7 @@ def start_page(start_btn_callback):
 
 def end_page():
 
-    with open('end_page_text.txt', 'r') as file:
+    with open('end_page_text.html', 'r') as file:
         body = file.read().replace('\n', '')
 
     st.markdown(
@@ -109,7 +109,7 @@ def exp_page(
     service
     ):
 
-    with open('exp_page_text.txt', 'r') as file:
+    with open('exp_page_text.html', 'r') as file:
         body = file.read().replace('\n', '')
     
     st.markdown(
