@@ -138,7 +138,7 @@ def exp_page(
     # with st.form("my_form"):
     #     st.text_input("Enter:", max_chars = amount_of_digits, value = "", key = "user_answer")
     #     st.form_submit_button("NEXT", on_click = next_btn_callback, args = (service,))
-    with st.contaier():
+    with st.container():
         st.text_input("Enter:", max_chars = amount_of_digits, value = "", key = "user_answer")
         st.button("NEXT", on_click = next_btn_callback, args = (service,))
     
